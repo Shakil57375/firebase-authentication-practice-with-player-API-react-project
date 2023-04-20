@@ -34,12 +34,12 @@ const router = createBrowserRouter([
       {
         path : '/players',
         element : <PrivateRouter><Homes></Homes></PrivateRouter>,
-        loader : () => fetch('https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p')
+        loader : () => fetch('/data.json')
       },
       {
-        path : 'service/:serviceId',
+        path : '/player/:Id',
         element : <PrivateRouter><PlayerDetails></PlayerDetails></PrivateRouter>,
-        loader : ({params}) => fetch(`https://www.thesportsdb.com/api/v1/json/3/lookupplayer.php?id=${params.serviceId}`)
+        loader : () => fetch('/data.json')
       },
     ]
   },

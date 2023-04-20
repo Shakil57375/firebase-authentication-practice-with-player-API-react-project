@@ -6,7 +6,7 @@
       "currentClub": "Manchester United",
       "currentAddress": "Manchester, UK",
       "maritalStatus": "In a relationship",
-      "marketPrice": "$120 million",
+      "marketPrice": 120,
       "passingAccuracy": "83%",
       "dribble": "2.3 per game",
       "goals": {
@@ -24,7 +24,8 @@
       "assistsPerSeason": "11.1",
       "fitness": "Excellent",
       "hobbies": ["Working out", "Spending time with family"],
-      "description": "Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Manchester United and the Portugal national team. Known for his speed, dribbling, and goal-scoring ability, he has won numerous titles and individual awards throughout his career, including five Ballon d'Or awards."
+      "description": "Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Manchester United and the Portugal national team. Known for his speed, dribbling, and goal-scoring ability, he has won numerous titles and individual awards throughout his career, including five Ballon d'Or awards.", 
+      "images" : "https://e1.pngegg.com/pngimages/986/193/png-clipart-cristiano-ronaldo-thumbnail.png"
     },
     {
       "id": 2,
@@ -34,7 +35,7 @@
       "currentClub": "Paris Saint-Germain",
       "currentAddress": "Paris, France",
       "maritalStatus": "Married",
-      "marketPrice": "$150 million",
+      "marketPrice": 150 ,
       "passingAccuracy": "85%",
       "dribble": "4.6 per game",
       "goals": {
@@ -51,7 +52,8 @@
       "assistsPerSeason": "18.2",
       "fitness": "Excellent",
       "hobbies": ["Playing video games", "Spending time with family"],
-      "description": "Lionel Messi is an Argentine professional footballer who plays as a forward for Paris Saint-Germain and the Argentina national team. Known for his dribbling, passing, and goal-scoring ability, he has won numerous titles and individual awards throughout his career, including seven Ballon d'Or awards."
+      "description": "Lionel Messi is an Argentine professional footballer who plays as a forward for Paris Saint-Germain and the Argentina national team. Known for his dribbling, passing, and goal-scoring ability, he has won numerous titles and individual awards throughout his career, including seven Ballon d'Or awards.", 
+      "images" : "https://e1.pngegg.com/pngimages/817/696/png-clipart-lionel-messi-thumbnail.png"
     },
     {
       "id": 3,
@@ -61,7 +63,7 @@
       "currentClub": "Bayern Munich",
       "currentAddress": "Munich, Germany",
       "maritalStatus": "Married",
-      "marketPrice": "$120 million",
+      "marketPrice": 120 ,
       "passingAccuracy": "79%",
       "dribble": "1.9 per game",
       "goals": {
@@ -78,26 +80,26 @@
       "assistsPerSeason": "8.9",
       "fitness": "Excellent",
       "hobbies": ["Playing the piano", "Watching movies"],
-        "Descriptions" : "he is a polish player and Currently playing for berselona"
+        "Descriptions" : "he is a polish player and Currently playing for berselona.", "images" : "https://w7.pngwing.com/pngs/345/826/png-transparent-robert-lewandowski-poland-national-football-team-fc-bayern-munich-football-player-robert-lewandowski-tshirt-sport-jersey.png"
   },
-{
+  {
       "id": 4,
-      "name": "Sadio Mane",
-      "nationality": "Senegal",
+      "name": "Firmino",
+      "nationality": "Brazil",
       "currentClub": "Liverpool",
       "position" : "Forward",
       "currentAddress": "Liverpool, UK",
       "maritalStatus": "Married",
-      "marketPrice": "$100 million",
+      "marketPrice": 50 ,
       "passingAccuracy": "81%",
-      "dribble": "2.7 per game",
+      "dribble": "2.2 per game",
       "goals": {
-        "club": 95,
-        "international": 23
+        "club": 65,
+        "international": 13
       },
       "assists": {
-        "club": 46,
-        "international": 14
+        "club": 26,
+        "international": 4
       },
       "keyPasses": "1.9 per game",
       "crossSuccessRate": "29.1%",
@@ -105,7 +107,8 @@
       "assistsPerSeason": "8.2",
       "fitness": "Excellent",
       "hobbies": ["Playing video games", "Listening to music"],
-      "description": "Sadio Mane is a Senegalese professional footballer who plays as a forward for Liverpool and the Senegal national team. Known for his pace, dribbling, and finishing ability, he has won several titles and awards throughout his career, including the Premier League Golden Boot in the 2018-19 season."
+      "description": "Roberto Firmino Barbosa de Oliveira is a Brazilian professional footballer who plays as a forward or attacking midfielder for Premier League club Liverpool and the Brazil national team. After starting his career with Figueirense in 2009, he spent four-and-a-half seasons at 1899 Hoffenheim.", 
+      "images" : "https://www.footyrenders.com/render/roberto-firmino-108.png"
     },
     {
       "id": 5,
@@ -115,7 +118,7 @@
       "currentClub": "Tottenham Hotspur",
       "currentAddress": "London, UK",
       "maritalStatus": "Married",
-      "marketPrice": "$150 million",
+      "marketPrice": 150 ,
       "passingAccuracy": "81%",
       "dribble": "1.3 per game",
       "goals": {
@@ -132,16 +135,46 @@
       "assistsPerSeason": "6.8",
       "fitness": "Excellent",
       "hobbies": ["Golfing", "Watching movies"],
-      "description": "Harry Kane is an English professional footballer who plays as a striker for Tottenham Hotspur and the England national team. Known for his clinical finishing, passing, and ability to create chances, he has won several awards throughout his career, including the Premier League Golden Boot on three occasions."
+      "description": "Harry Kane is an English professional footballer who plays as a striker for Tottenham Hotspur and the England national team. Known for his clinical finishing, passing, and ability to create chances, he has won several awards throughout his career, including the Premier League Golden Boot on three occasions.", 
+      "images" : "https://www.pikpng.com/pngl/m/8-81562_harry-kane-png-harry-kane-england-transparent-clipart.png"
+    },
+    {
+      "id": 6,
+      "name": "Harry Maguire",
+      "nationality": "England",
+      "position" : "centre-back",
+      "currentClub": "Tottenham Hotspur",
+      "currentAddress": "London, UK",
+      "maritalStatus": "Married",
+      "marketPrice": 15 ,
+      "passingAccuracy": "81%",
+      "dribble": "0.3 per game",
+      "goals": {
+        "club": 21,
+        "international": 1
+      },
+      "assists": {
+        "club": 1,
+        "international": 1
+      },
+      "keyPasses": "1.4 per game",
+      "crossSuccessRate": "23.7%",
+      "goalsPerSeason": "30.5",
+      "assistsPerSeason": "6.8",
+      "fitness": "Excellent",
+      "hobbies": ["Golfing", "Watching movies"],
+      "description": "Jacob Harry Maguire is an English professional footballer who plays as a centre-back for Premier League club Manchester United and the England national team. Maguire came through the youth system at Sheffield United before graduating to the first team in 2011.", 
+      "images" : "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png"
     },
     {
       "id": 7,
       "name": "Kevin De Bruyne",
       "nationality": "Belgium",
+      "position" : "Mid-fielder",
       "currentClub": "Manchester City",
       "currentAddress": "Manchester, UK",
       "maritalStatus": "Married",
-      "marketPrice": "$160 million",
+      "marketPrice": 160 ,
       "passingAccuracy": "85%",
       "dribble": "2.4 per game",
       "goals": {
@@ -157,16 +190,20 @@
       "goalsPerSeason": "10.2",
       "assistsPerSeason": "15.1",
       "fitness": "Excellent",
-      "hobbies": ["Playing video games", "Spending time with family"]
+      "hobbies": ["Playing video games", "Spending time with family"],
+      "images" : "https://www.kindpng.com/picc/m/97-975237_kevin-de-bruyne-render-kevin-de-bruyne-belgium.png",
+      "description": "Kevin De Bruyne is a Belgian professional footballer who plays as a midfielder for Premier League club Manchester City and captains the Belgium national team. He is widely regarded as one of the best players in the world. Pundits have often described him as a complete footballer."
+
    },
     {
       "id": 8,
       "name": "Mohamed Salah",
       "nationality": "Egypt",
+      "position" : "Forward",
       "currentClub": "Liverpool",
       "currentAddress": "Liverpool, England",
       "maritalStatus": "Married",
-      "marketPrice": "$175 million",
+      "marketPrice": 175 ,
       "passingAccuracy": "82%",
       "dribble": "3.6 per game",
       "goals": {
@@ -183,16 +220,18 @@
       "assistsPerSeason": "14.2",
       "fitness": "Excellent",
       "hobbies": ["Reading", "Spending time with family"],
-      "description": "Mohamed Salah is an Egyptian professional footballer who plays as a forward for Liverpool and the Egypt national team. He is known for his pace, dribbling skills, and clinical finishing, and has won numerous awards and accolades for his performances on the field."
+      "description": "Mohamed Salah is an Egyptian professional footballer who plays as a forward for Liverpool and the Egypt national team. He is known for his pace, dribbling skills, and clinical finishing, and has won numerous awards and accolades for his performances on the field.", 
+      "images" : " https://www.vhv.rs/dpng/d/480-4809110_mohamed-salah-render-egypt-mohamed-salah-png-transparent.png"
     },
     {
       "id": 9,
-      "name": "Neymar Jr.",
+      "name": "Neymar Jr.", 
       "nationality": "Brazil",
+      "position" : "Forward",
       "currentClub": "Paris Saint-Germain",
       "currentAddress": "Paris, France",
       "maritalStatus": "Single",
-      "marketPrice": "$200 million",
+      "marketPrice": 200 ,
       "passingAccuracy": "84%",
       "dribble": "5.1 per game",
       "goals": {
@@ -209,16 +248,18 @@
       "assistsPerSeason": "16.4",
       "fitness": "Good",
       "hobbies": ["Playing poker", "Listening to music"],
-      "description": "Neymar Jr. is a Brazilian professional footballer who plays as a forward for Paris Saint-Germain and the Brazil national team. He is known for his exceptional technical skills, speed, and agility on the field, and has won numerous individual awards for his performances."
+      "description": "Neymar Jr. is a Brazilian professional footballer who plays as a forward for Paris Saint-Germain and the Brazil national team. He is known for his exceptional technical skills, speed, and agility on the field, and has won numerous individual awards for his performances.", 
+      "images" : "https://e1.pngegg.com/pngimages/55/265/png-clipart-neymar-jr-thumbnail.png"
     },
     {
       "id": 10,
       "name": "Sadio Mane",
       "nationality": "Senegal",
       "currentClub": "Liverpool",
+      "position" : "Forward",
       "currentAddress": "Liverpool, England",
       "maritalStatus": "Married",
-      "marketPrice": "$150 million",
+      "marketPrice": 150 ,
       "passingAccuracy": "78%",
       "dribble": "2.7 per game",
       "goals": {
@@ -231,7 +272,11 @@
       },
       "keyPasses": "1.7 per game",
       "crossSuccessRate": "17.6%",
-      "goalsPerSeason": "22.8"
+      "goalsPerSeason": "22.8",
+      "assistsPerSeason": "16.4",
+      "fitness": "Good",
+      "description": "Sadio Mané is a Senegalese professional footballer who plays as a forward for Bundesliga club Bayern Munich and the Senegal national team. Widely regarded as one of the greatest African players of all time, he is known for his pressing, dribbling, and speed",
+      "images" : "https://w7.pngwing.com/pngs/18/284/png-transparent-football-player-team-sport-sadio-mane-sport-team-sports-equipment-thumbnail.png"
     },
     {
       "id": 11,
@@ -239,8 +284,9 @@
       "nationality": "Spain",
       "currentClub": "Vissel Kobe",
       "currentAddress": "Kobe, Japan",
+      "position" : "Mid-fielder",
       "maritalStatus": "Married",
-      "marketPrice": "$5 million",
+      "marketPrice": 5 ,
       "passingAccuracy": "92%",
       "dribble": "1.8 per game",
       "goals": {
@@ -257,16 +303,17 @@
       "assistsPerSeason": "6.1",
       "fitness": "Good",
       "hobbies": ["Playing golf", "Spending time with family"],
-      "description": "Andres Iniesta is a retired Spanish professional footballer who played as a central midfielder. He is widely regarded as one of the best midfielders of his generation, known for his exceptional passing ability, vision, and technical skills on the ball. Iniesta won numerous trophies and individual awards during his career, including the World Cup and European Championship with the Spanish national team."
+      "description": "Andres Iniesta is a retired Spanish professional footballer who played as a central midfielder. He is widely regarded as one of the best midfielders of his generation, known for his exceptional passing ability, vision, and technical skills on the ball. Iniesta won numerous trophies and individual awards during his career, including the World Cup and European Championship with the Spanish national team.", "images" : "https://e7.pngegg.com/pngimages/116/504/png-clipart-men-s-red-and-yellow-jersey-shirt-andres-iniesta-2014-fifa-world-cup-spain-national-football-team-uefa-euro-2016-andres-iniesta-tshirt-jersey-thumbnail.png"
     },
     {
       "id": 12,
       "name": "Ronaldinho",
       "nationality": "Brazil",
+      "position" : "Forward",
       "currentClub": "Retired",
       "currentAddress": "",
       "maritalStatus": "Single",
-      "marketPrice": "$5 million",
+      "marketPrice": 5 ,
       "passingAccuracy": "84%",
       "dribble": "4.8 per game",
       "goals": {
@@ -283,16 +330,18 @@
       "assistsPerSeason": "9.5",
       "fitness": "Average",
       "hobbies": ["Playing the drums", "Dancing"],
-      "description": "Ronaldinho is a retired Brazilian professional footballer who played as an attacking midfielder or forward. He is widely regarded as one of the greatest footballers of all time, known for his exceptional dribbling skills, creativity, and flair on the ball. Ronaldinho won numerous trophies and individual awards during his career, including the World Cup and Champions League, and is considered a legend in the sport." 
+      "description": "Ronaldinho is a retired Brazilian professional footballer who played as an attacking midfielder or forward. He is widely regarded as one of the greatest footballers of all time, known for his exceptional dribbling skills, creativity, and flair on the ball. Ronaldinho won numerous trophies and individual awards during his career, including the World Cup and Champions League, and is considered a legend in the sport.", 
+      "images" : "https://w7.pngwing.com/pngs/26/3/png-transparent-ronaldinho-paris-saint-germain-f-c-jersey-football-ronaldinho-sport-sports-equipment-shoe-thumbnail.png" 
     },
     {
       "id": 13,
       "name": "Karim Benzema",
       "nationality": "France",
+      "position" : "Forward",
       "currentClub": "Real Madrid",
       "currentAddress": "Madrid, Spain",
       "maritalStatus": "Married",
-      "marketPrice": "$50 million",
+      "marketPrice": 50 ,
       "passingAccuracy": "86%",
       "dribble": "1.6 per game",
       "goals": {
@@ -309,16 +358,18 @@
       "assistsPerSeason": "7.6",
       "fitness": "Excellent",
       "hobbies": ["Playing video games", "Watching movies"],
-      "description": "Karim Benzema is a French professional footballer who plays as a striker for Real Madrid and the French national team. He is known for his technical skills, vision, and finishing ability, and has won numerous trophies with Real Madrid, including four Champions League titles. Benzema is considered one of the best strikers in the world and has been praised for his unselfish play and ability to create opportunities for his teammates."
+      "description": "Karim Benzema is a French professional footballer who plays as a striker for Real Madrid and the French national team. He is known for his technical skills, vision, and finishing ability, and has won numerous trophies with Real Madrid, including four Champions League titles. Benzema is considered one of the best strikers in the world and has been praised for his unselfish play and ability to create opportunities for his teammates.", 
+      "images" : "https://e7.pngegg.com/pngimages/58/147/png-clipart-karim-benzema-football-player-team-sport-karim-sport-jersey.png "
     },
     {
       "id": 14,
       "name": "Gareth Bale",
       "nationality": "Wales",
+      "position" : "Forward",
       "currentClub": "Real Madrid",
       "currentAddress": "Madrid, Spain",
       "maritalStatus": "Married",
-      "marketPrice": "$25 million",
+      "marketPrice": 25 ,
       "passingAccuracy": "80%",
       "dribble": "2.1 per game",
       "goals": {
@@ -335,7 +386,8 @@
       "assistsPerSeason": "4.8",
       "fitness": "Average",
       "hobbies": ["Golfing", "Playing video games"],
-      "description": "Gareth Bale is a Welsh professional footballer who plays as a winger for Real Madrid and the Welsh national team. He is known for his speed, powerful shots, and ability to score from long range. Bale has won numerous trophies during his career, including four Champions League titles with Real Madrid. He is considered one of the best Welsh footballers of all time and has been praised for his dedication and hard work both on and off the pitch."
+      "description": "Gareth Bale is a Welsh professional footballer who plays as a winger for Real Madrid and the Welsh national team. He is known for his speed, powerful shots, and ability to score from long range. Bale has won numerous trophies during his career, including four Champions League titles with Real Madrid. He is considered one of the best Welsh footballers of all time and has been praised for his dedication and hard work both on and off the pitch.", 
+      "images" : "https://www.pngmart.com/files/22/Gareth-Bale-PNG-Transparent.png "
     },
     {
       "id": 15,
@@ -344,7 +396,8 @@
       "currentClub": "Paris Saint-Germain",
       "currentAddress": "Paris, France",
       "maritalStatus": "Married",
-      "marketPrice": "$15 million",
+      "marketPrice": 15 ,
+      "position" : "center-back",
       "passingAccuracy": "92%",
       "dribble": "0.9 per game",
       "goals": {
@@ -361,7 +414,8 @@
       "assistsPerSeason": "2.4",
       "fitness": "Good",
       "hobbies": ["Horse riding", "Playing guitar"],
-      "description": "Sergio Ramos is a Spanish professional footballer who plays as a center-back for Paris Saint-Germain and the Spanish national team. He is known for his leadership skills, physicality, and goal-scoring ability, and has won numerous trophies during his career, including five La Liga titles and four Champions League titles. Ramos is considered one of the best defenders in the world and has been praised for his determination and mental toughness."
+      "description": "Sergio Ramos is a Spanish professional footballer who plays as a center-back for Paris Saint-Germain and the Spanish national team. He is known for his leadership skills, physicality, and goal-scoring ability, and has won numerous trophies during his career, including five La Liga titles and four Champions League titles. Ramos is considered one of the best defenders in the world and has been praised for his determination and mental toughness.", 
+      "images" : "https://w7.pngwing.com/pngs/498/628/png-transparent-sergio-ramos-spain-national-football-team-football-player-football-sport-photography-sports-equipment-thumbnail.png"
     },
     {
       "id": 16,
@@ -369,8 +423,9 @@
       "nationality": "Spain",
       "currentClub": "Barcelona",
       "currentAddress": "Barcelona, Spain",
+      "position" : "center-back",
       "maritalStatus": "Married",
-      "marketPrice": "$10 million",
+      "marketPrice": 10 ,
       "passingAccuracy": "91%",
       "dribble": "0.8 per game",
       "goals": {
@@ -387,7 +442,8 @@
       "assistsPerSeason": "0.9",
       "fitness": "Good",
       "hobbies": ["Playing poker", "Traveling"],
-      "description": "Gerard Piqué is a Spanish professional footballer who plays as a center-back for Barcelona and the Spanish national team. He is known for his passing ability, ball-playing skills, and defensive intelligence, and has won numerous trophies during his career, including four Champions League titles and eight La Liga titles. Piqué is considered one of the best center-backs in the world and has been praised for his composure and ability to read the game."
+      "description": "Gerard Piqué is a Spanish professional footballer who plays as a center-back for Barcelona and the Spanish national team. He is known for his passing ability, ball-playing skills, and defensive intelligence, and has won numerous trophies during his career, including four Champions League titles and eight La Liga titles. Piqué is considered one of the best center-backs in the world and has been praised for his composure and ability to read the game.", 
+      "images" : "https://e7.pngegg.com/pngimages/209/229/png-clipart-gerard-pique-spain-national-football-team-football-player-rendering-football-tshirt-sport.png "
     },
     {
       "id": 17,
@@ -396,7 +452,8 @@
       "currentClub": "Barcelona",
       "currentAddress": "Barcelona, Spain",
       "maritalStatus": "Single",
-      "marketPrice": "$20 million",
+      "position" : "winger",
+      "marketPrice": 20 ,
       "passingAccuracy": "89%",
       "dribble": "1.2 per game",
       "goals": {
@@ -412,16 +469,18 @@
       "assistsPerSeason": "2.4",
       "fitness": "Good",
       "hobbies": ["Horse riding", "Playing guitar"],
-      "description": "Sergi Roberto is a Spanish professional footballer who plays as a center-back for Paris Saint-Germain and the Spanish national team. He is known for his leadership skills, physicality, and goal-scoring ability, and has won numerous trophies during his career, including five La Liga titles and four Champions League titles. Ramos is considered one of the best defenders in the world and has been praised for his determination and mental toughness."
+      "description": "Sergi Roberto Carnicer is a Spanish professional footballer who plays for La Liga club Barcelona and the Spain national team. Mainly a central midfielder, he can also operate as a defensive midfielder, full-back or winger.", 
+      "images" : "https://e7.pngegg.com/pngimages/501/242/png-clipart-sergi-roberto-fifa-18-fc-barcelona-spain-national-football-team-fifa-17-fc-barcelona-tshirt-jersey-thumbnail.png"
     },
     {
       "id": 18,
       "name": "Thibaut Courtois",
       "nationality": "Belgium",
+      "position" : "goal-keeper",
       "currentClub": "Real Madrid",
       "currentAddress": "Madrid, Spain",
       "maritalStatus": "Single",
-      "marketPrice": "$80 million",
+      "marketPrice": 80 ,
       "passingAccuracy": "85%",
       "dribble": "0.1 per game",
       "goals": {
@@ -438,16 +497,17 @@
       "assistsPerSeason": "N/A",
       "fitness": "Excellent",
       "hobbies": ["Playing video games", "Collecting stamps"],
-      "description": "Thibaut Courtois is a Belgian professional footballer who plays as a goalkeeper for Real Madrid and the Belgium national team. He is known for his height, reflexes, and shot-stopping abilities, and has won numerous trophies during his career, including two Premier League titles and one La Liga title. Courtois is considered one of the best goalkeepers in the world and has been praised for his consistency and reliability."
+      "description": "Thibaut Courtois is a Belgian professional footballer who plays as a goalkeeper for Real Madrid and the Belgium national team. He is known for his height, reflexes, and shot-stopping abilities, and has won numerous trophies during his career, including two Premier League titles and one La Liga title. Courtois is considered one of the best goalkeepers in the world and has been praised for his consistency and reliability.", "images" : "https://banner2.cleanpng.com/20190708/ktu/kisspng-thibaut-courtois-real-madrid-c-f-chelsea-f-c-goa-5d240d852ad0d7.2830877015626438451754.jpg"
     },
     {
       "id": 19,
       "name": "Marc-André ter Stegen",
       "nationality": "Germany",
       "currentClub": "Barcelona",
+      "position" : "goal-keeper",
       "currentAddress": "Barcelona, Spain",
       "maritalStatus": "Married",
-      "marketPrice": "$70 million",
+      "marketPrice": 70 ,
       "passingAccuracy": "88%",
       "dribble": "0.2 per game",
       "goals": {
@@ -464,16 +524,18 @@
       "assistsPerSeason": "N/A",
       "fitness": "Good",
       "hobbies": ["Playing golf", "Reading"],
-      "description": "Marc-André ter Stegen is a German professional footballer who plays as a goalkeeper for Barcelona and the Germany national team. He is known for his ball-playing skills, shot-stopping abilities, and quick reflexes, and has won numerous trophies during his career, including four La Liga titles and one Champions League title. Ter Stegen is considered one of the best goalkeepers in the world and has been praised for his calmness under pressure and ability to start attacks from the back."
+      "description": "Marc-André ter Stegen is a German professional footballer who plays as a goalkeeper for Barcelona and the Germany national team. He is known for his ball-playing skills, shot-stopping abilities, and quick reflexes, and has won numerous trophies during his career, including four La Liga titles and one Champions League title. Ter Stegen is considered one of the best goalkeepers in the world and has been praised for his calmness under pressure and ability to start attacks from the back.", 
+      "images" : "https://e7.pngegg.com/pngimages/921/204/png-clipart-marc-andre-ter-stegen-fifa-18-fc-barcelona-germany-national-football-team-fifa-13-fc-barcelona-tshirt-sport.png"
     },
     {
       "id": 20,
       "name": "Alisson Becker",
       "nationality": "Brazil",
       "currentClub": "Liverpool",
+      "position" : "goal-keeper",
       "currentAddress": "Liverpool, England",
       "maritalStatus": "Married",
-      "marketPrice": "$90 million",
+      "marketPrice": 90 ,
       "passingAccuracy": "85%",
       "dribble": "0.1 per game",
       "goals": {
@@ -484,13 +546,22 @@
         "club": 1,
         "international": 0
       },
-      "keyPasses": "0.1 per"
+      "keyPasses": "0.1 per",
+      "crossSuccessRate": "0%",
+      "goalsPerSeason": "N/A",
+      "assistsPerSeason": "N/A",
+      "fitness": "Good",
+      "hobbies": ["Playing golf", "Reading"],
+      "description": "Álisson Ramsés Becker, known as Alisson Becker or simply Alisson, is a Brazilian professional footballer who plays as a goalkeeper for Premier League club Liverpool and the Brazil national team.", 
+      "images" : "https://w7.pngwing.com/pngs/821/638/png-transparent-fifa-18-2017-18-serie-a-brazil-national-football-team-a-s-roma-2018-world-cup-alisson-becker-tshirt-shoe-football-player.png"
+    
     },
 
     {
       "name": "Pedri",
       "id": 21,
       "current_team": "FC Barcelona",
+      "position" : "Mid-fielder",
       "national_team": "Spain",
       "birthplace": "Tegueste, Spain",
       "player_manager": "Ronald Koeman",
@@ -499,10 +570,10 @@
       "date_of_birth": "November 25, 2002",
       "previous_address": "Tenerife, Spain",
       "current_address": "Barcelona, Spain",
-      "market_price": "$110 million",
+      "market_price": 110 ,
       "accuracy": "90%",
       "fitness": "Excellent",
-      "description": "Pedri is a young Spanish professional footballer who plays as a midfielder for FC Barcelona and the Spain national team. He is known for his technical ability, vision, and composure on the ball, as well as his versatility in playing different midfield roles. Pedri started his career at Las Palmas before moving to Barcelona in 2020, and has already established himself as a key player for both club and country. He played a key role in helping Spain reach the semi-finals of Euro 2020, and was named the tournament's Best Young Player."
+      "description": "Pedri is a young Spanish professional footballer who plays as a midfielder for FC Barcelona and the Spain national team. He is known for his technical ability, vision, and composure on the ball, as well as his versatility in playing different midfield roles. Pedri started his career at Las Palmas before moving to Barcelona in 2020, and has already established himself as a key player for both club and country. He played a key role in helping Spain reach the semi-finals of Euro 2020, and was named the tournament's Best Young Player.", "images" : " "
     },
   {
     "name": "Eduardo Camavinga",
@@ -517,10 +588,10 @@
     "date_of_birth": "November 10, 2002",
     "previous_address": "Rennes, France",
     "current_address": "Madrid, Spain",
-    "market_price": "$70 million",
+    "market_price": 70 ,
     "accuracy": "88%",
     "fitness": "Excellent",
-    "description": "Eduardo Camavinga is a young French professional footballer who plays as a midfielder for Real Madrid and the France national team. He is known for his physicality, technical ability, and vision on the ball, as well as his ability to play as a defensive midfielder or box-to-box midfielder. Camavinga started his career at Rennes before moving to Real Madrid in 2021, and has already shown great potential at the highest level of football. He became the youngest French international in over 100 years when he made his debut for the national team in 2020, and has since established himself as one of the most exciting young players in the game."
+    "description": "Eduardo Camavinga is a young French professional footballer who plays as a midfielder for Real Madrid and the France national team. He is known for his physicality, technical ability, and vision on the ball, as well as his ability to play as a defensive midfielder or box-to-box midfielder. Camavinga started his career at Rennes before moving to Real Madrid in 2021, and has already shown great potential at the highest level of football. He became the youngest French international in over 100 years when he made his debut for the national team in 2020, and has since established himself as one of the most exciting young players in the game.", "images" : " "
   },
   {
     "name": "Luka Modric",
@@ -535,10 +606,10 @@
     "date_of_birth": "September 9, 1985",
     "previous_address": "Tottenham, England",
     "current_address": "Madrid, Spain",
-    "market_price": "$20 million",
+    "market_price": 20 ,
     "accuracy": "87%",
     "fitness": "Excellent",
-    "description": "Luka Modric is a Croatian professional footballer who plays as a midfielder for Real Madrid and the Croatia national team. He is known for his passing ability, ball control, and vision, as well as his work rate and leadership on the pitch. Modric started his career at Dinamo Zagreb before moving to Tottenham Hotspur in 2008 and then to Real Madrid in 2012. He has won numerous domestic and international titles with both club and country, including four Champions League titles with Real Madrid and a runner-up finish with Croatia in the 2018 World Cup, where he won the Golden Ball award for best player of the tournament."
+    "description": "Luka Modric is a Croatian professional footballer who plays as a midfielder for Real Madrid and the Croatia national team. He is known for his passing ability, ball control, and vision, as well as his work rate and leadership on the pitch. Modric started his career at Dinamo Zagreb before moving to Tottenham Hotspur in 2008 and then to Real Madrid in 2012. He has won numerous domestic and international titles with both club and country, including four Champions League titles with Real Madrid and a runner-up finish with Croatia in the 2018 World Cup, where he won the Golden Ball award for best player of the tournament.", "images" : " "
   },
   {
     "name": "Marco Verratti",
@@ -553,10 +624,10 @@
     "date_of_birth": "November 5, 1992",
     "previous_address": "Pescara, Italy",
     "current_address": "Paris, France",
-    "market_price": "$80 million",
+    "market_price": 80 ,
     "accuracy": "91%",
     "fitness": "Excellent",
-    "description": "Marco Verratti is an Italian professional footballer who plays as a midfielder for Paris Saint-Germain and the Italy national team. He is known for his passing ability, ball control, and tactical intelligence, as well as his work rate and versatility on the pitch. Verratti started his career at Pescara before moving to Paris Saint-Germain in 2012, and has since established himself as one of the best midfielders in the world. He has won numerous domestic and international titles with both club and country, including seven Ligue 1 titles with Paris Saint-Germain and the 2020 European Championship with Italy."
+    "description": "Marco Verratti is an Italian professional footballer who plays as a midfielder for Paris Saint-Germain and the Italy national team. He is known for his passing ability, ball control, and tactical intelligence, as well as his work rate and versatility on the pitch. Verratti started his career at Pescara before moving to Paris Saint-Germain in 2012, and has since established himself as one of the best midfielders in the world. He has won numerous domestic and international titles with both club and country, including seven Ligue 1 titles with Paris Saint-Germain and the 2020 European Championship with Italy.", "images" : " "
   },
   {
     "name": "Toni Kroos",
@@ -571,10 +642,10 @@
     "date_of_birth": "January 4, 1990",
     "previous_address": "Bayern Munich, Germany",
     "current_address": "Madrid, Spain",
-    "market_price": "$50 million",
+    "market_price": 50 ,
     "accuracy": "92%",
     "fitness": "Excellent",
-    "description": "Toni Kroos is a German professional footballer who plays as a midfielder for Real Madrid and the Germany national team. He is widely regarded as one of the best midfielders in the world, known for his vision, passing ability, and tactical intelligence. Kroos started his career at Hansa Rostock before moving to Bayern Munich in 2007. He won numerous titles with the club, including three Bundesliga titles and the Champions League. In 2014, he moved to Real Madrid, where he has continued his success, winning four Champions League titles and two La Liga titles. Kroos has also had success on the international stage, winning the 2014 FIFA World Cup with Germany."
+    "description": "Toni Kroos is a German professional footballer who plays as a midfielder for Real Madrid and the Germany national team. He is widely regarded as one of the best midfielders in the world, known for his vision, passing ability, and tactical intelligence. Kroos started his career at Hansa Rostock before moving to Bayern Munich in 2007. He won numerous titles with the club, including three Bundesliga titles and the Champions League. In 2014, he moved to Real Madrid, where he has continued his success, winning four Champions League titles and two La Liga titles. Kroos has also had success on the international stage, winning the 2014 FIFA World Cup with Germany.", "images" : " "
   },
   {
     "name": "Joshua Kimmich",
@@ -589,10 +660,10 @@
     "date_of_birth": "February 8, 1995",
     "previous_address": "Stuttgart, Germany",
     "current_address": "Munich, Germany",
-    "market_price": "$85 million",
+    "market_price": 85 ,
     "accuracy": "90%",
     "fitness": "Excellent",
-    "description": "Joshua Kimmich is a German professional footballer who plays as a midfielder for Bayern Munich and the German national team. He is known for his versatility, intelligence, and technical ability on the ball, as well as his tenacity and work rate off it. Kimmich started his career at VfB Stuttgart before moving to RB Leipzig, and then to Bayern Munich in 2015. He has since become a key player for both club and country, and has won numerous domestic and international titles, including the 2014 World Cup with Germany. Off the pitch, Kimmich is known for his charity work and his interest in environmental issues."
+    "description": "Joshua Kimmich is a German professional footballer who plays as a midfielder for Bayern Munich and the German national team. He is known for his versatility, intelligence, and technical ability on the ball, as well as his tenacity and work rate off it. Kimmich started his career at VfB Stuttgart before moving to RB Leipzig, and then to Bayern Munich in 2015. He has since become a key player for both club and country, and has won numerous domestic and international titles, including the 2014 World Cup with Germany. Off the pitch, Kimmich is known for his charity work and his interest in environmental issues.", "images" : " "
   },
   {
     "name": "Paul Pogba",
@@ -607,10 +678,10 @@
     "date_of_birth": "March 15, 1993",
     "previous_address": "Juventus, Italy",
     "current_address": "Manchester, England",
-    "market_price": "$85 million",
+    "market_price": 85 ,
     "accuracy": "87%",
     "fitness": "Excellent",
-    "description": "Paul Pogba is a French professional footballer who plays as a midfielder for Manchester United and the France national team. He is known for his technical skills, passing ability, and physicality on the field. Pogba began his professional career with Manchester United before moving to Juventus in 2012, where he won four consecutive Serie A titles. He returned to Manchester United in 2016 for a then-record transfer fee of £89 million. Pogba has also had success with the France national team, helping them win the 2018 FIFA World Cup. He has been named to the UEFA Team of the Year three times and was included in the FIFA FIFPro World11 in 2015, 2016, 2018, and 2019."
+    "description": "Paul Pogba is a French professional footballer who plays as a midfielder for Manchester United and the France national team. He is known for his technical skills, passing ability, and physicality on the field. Pogba began his professional career with Manchester United before moving to Juventus in 2012, where he won four consecutive Serie A titles. He returned to Manchester United in 2016 for a then-record transfer fee of £89 million. Pogba has also had success with the France national team, helping them win the 2018 FIFA World Cup. He has been named to the UEFA Team of the Year three times and was included in the FIFA FIFPro World11 in 2015, 2016, 2018, and 2019.", "images" : " "
   },
   {
     "name": "Jordi Alba",
@@ -625,10 +696,10 @@
     "date_of_birth": "March 21, 1989",
     "previous_address": "Valencia, Spain",
     "current_address": "Barcelona, Spain",
-    "market_price": "$40 million",
+    "market_price": 40 ,
     "accuracy": "87%",
     "fitness": "Excellent",
-    "description": "Jordi Alba is a Spanish professional footballer who plays as a left-back for Barcelona and the Spain national team. He is known for his speed, stamina, and attacking abilities, as well as his defensive contributions. Alba began his career at Valencia before moving to Barcelona in 2012, and has since established himself as one of the best left-backs in the world. He has won numerous domestic and international titles with both club and country, and has also been recognized individually for his performances."
+    "description": "Jordi Alba is a Spanish professional footballer who plays as a left-back for Barcelona and the Spain national team. He is known for his speed, stamina, and attacking abilities, as well as his defensive contributions. Alba began his career at Valencia before moving to Barcelona in 2012, and has since established himself as one of the best left-backs in the world. He has won numerous domestic and international titles with both club and country, and has also been recognized individually for his performances.", "images" : " "
   },
   {
     "name": "Marcelo Vieira",
@@ -643,10 +714,10 @@
     "date_of_birth": "May 12, 1988",
     "previous_address": "Fluminense, Brazil",
     "current_address": "Madrid, Spain",
-    "market_price": "$6 million",
+    "market_price": 6 ,
     "accuracy": "82%",
     "fitness": "Good",
-    "description": "Marcelo Vieira is a Brazilian professional footballer who plays as a left-back for Real Madrid and the Brazil national team. He is known for his attacking ability, technical skills, and excellent crossing ability, which have made him one of the best left-backs in the world. Marcelo began his career at Fluminense in Brazil before moving to Real Madrid in 2007, where he has won numerous titles including 5 Champions League titles. He has also won the Copa America and Confederations Cup with Brazil, and is considered as one of the best left-backs in the history of Real Madrid."
+    "description": "Marcelo Vieira is a Brazilian professional footballer who plays as a left-back for Real Madrid and the Brazil national team. He is known for his attacking ability, technical skills, and excellent crossing ability, which have made him one of the best left-backs in the world. Marcelo began his career at Fluminense in Brazil before moving to Real Madrid in 2007, where he has won numerous titles including 5 Champions League titles. He has also won the Copa America and Confederations Cup with Brazil, and is considered as one of the best left-backs in the history of Real Madrid.", "images" : " "
   },
     {
       "name": "Erling Haaland",
@@ -661,10 +732,10 @@
       "date_of_birth": "July 21, 2000",
       "previous_address": "Salzburg, Austria",
       "current_address": "Dortmund, Germany",
-      "market_price": "$150 million",
+      "market_price": 150 ,
       "accuracy": "85%",
       "fitness": "Excellent",
-      "description": "Erling Haaland is a Norwegian professional footballer who plays as a forward for Borussia Dortmund and the Norway national team. He is known for his speed, power, and clinical finishing, and has quickly established himself as one of the most exciting young players in the game. Haaland started his career at Bryne before moving to Molde, where he won the Norwegian league title in 2019. He then moved to Red Bull Salzburg, where he continued to impress with his goalscoring record, before joining Borussia Dortmund in 2020. He has already broken numerous records and has been linked with a move to some of the biggest clubs in Europe."
+      "description": "Erling Haaland is a Norwegian professional footballer who plays as a forward for Borussia Dortmund and the Norway national team. He is known for his speed, power, and clinical finishing, and has quickly established himself as one of the most exciting young players in the game. Haaland started his career at Bryne before moving to Molde, where he won the Norwegian league title in 2019. He then moved to Red Bull Salzburg, where he continued to impress with his goalscoring record, before joining Borussia Dortmund in 2020. He has already broken numerous records and has been linked with a move to some of the biggest clubs in Europe.", "images" : " "
     },
     {
       "name": "Kylian Mbappe",
@@ -679,10 +750,10 @@
       "date_of_birth": "December 20, 1998",
       "previous_address": "Monaco",
       "current_address": "Paris, France",
-      "market_price": "$200 million",
+      "market_price": 200 ,
       "accuracy": "90%",
       "fitness": "Excellent",
-      "description": "Kylian Mbappe is a French professional footballer who plays as a forward for Paris Saint-Germain and the France national team. He is widely regarded as one of the best young players in the world and has already achieved great success at a young age. Mbappe started his career at Monaco, where he helped the club win the Ligue 1 title in 2017. He then moved to Paris Saint-Germain on loan, before making the move permanent in 2018. Mbappe has since won numerous titles with the club, including four Ligue 1 titles, and has also helped France win the World Cup in 2018. He is known for his speed, dribbling ability, and clinical finishing, and has been linked with a move to some of the biggest clubs in Europe."
+      "description": "Kylian Mbappe is a French professional footballer who plays as a forward for Paris Saint-Germain and the France national team. He is widely regarded as one of the best young players in the world and has already achieved great success at a young age. Mbappe started his career at Monaco, where he helped the club win the Ligue 1 title in 2017. He then moved to Paris Saint-Germain on loan, before making the move permanent in 2018. Mbappe has since won numerous titles with the club, including four Ligue 1 titles, and has also helped France win the World Cup in 2018. He is known for his speed, dribbling ability, and clinical finishing, and has been linked with a move to some of the biggest clubs in Europe.", "images" : " "
     },
     {
       "name": "Alphonso Davies",
@@ -697,10 +768,10 @@
       "date_of_birth": "November 2, 2000",
       "previous_address": "Vancouver, Canada",
       "current_address": "Munich, Germany",
-      "market_price": "$100 million",
+      "market_price": 100 ,
       "accuracy": "85%",
       "fitness": "Excellent",
-      "description": "Alphonso Davies is a Canadian professional footballer who plays as a left-back for Bayern Munich and the Canadian national team. He is known for his blistering pace, technical ability, and defensive skills, which have earned him a reputation as one of the most promising young defenders in the game. Davies started his career at the Vancouver Whitecaps before moving to Bayern Munich in 2018, and has since established himself as a key player for both club and country. He became the first Canadian men's player to win the Champions League when Bayern Munich won the tournament in 2020, and has since won numerous individual awards for his performances."
+      "description": "Alphonso Davies is a Canadian professional footballer who plays as a left-back for Bayern Munich and the Canadian national team. He is known for his blistering pace, technical ability, and defensive skills, which have earned him a reputation as one of the most promising young defenders in the game. Davies started his career at the Vancouver Whitecaps before moving to Bayern Munich in 2018, and has since established himself as a key player for both club and country. He became the first Canadian men's player to win the Champions League when Bayern Munich won the tournament in 2020, and has since won numerous individual awards for his performances.", "images" : " "
     },
   {
     "name": "Ben Chilwell",
@@ -715,10 +786,10 @@
     "date_of_birth": "December 21, 1996",
     "previous_address": "Leicester, England",
     "current_address": "London, England",
-    "market_price": "$50 million",
+    "market_price": 50 ,
     "accuracy": "85%",
     "fitness": "Excellent",
-    "description": "Ben Chilwell is a talented English left-back who currently plays for Chelsea and the England national team. He is known for his pace, crossing ability, and defensive qualities, and has established himself as one of the top fullbacks in the Premier League. Chilwell began his career at Leicester City before moving to Chelsea in 2020, where he has become a key player under manager Thomas Tuchel. He made his debut for the England national team in 2018, and has since become a regular starter, helping the team reach the final of the 2020 European Championships."
+    "description": "Ben Chilwell is a talented English left-back who currently plays for Chelsea and the England national team. He is known for his pace, crossing ability, and defensive qualities, and has established himself as one of the top fullbacks in the Premier League. Chilwell began his career at Leicester City before moving to Chelsea in 2020, where he has become a key player under manager Thomas Tuchel. He made his debut for the England national team in 2018, and has since become a regular starter, helping the team reach the final of the 2020 European Championships.", "images" : " "
   },
     {
       "name": "Achraf Hakimi",
@@ -733,10 +804,10 @@
       "date_of_birth": "November 4, 1998",
       "previous_address": "Inter Milan, Italy",
       "current_address": "Paris, France",
-      "market_price": "$80 million",
+      "market_price": 80 ,
       "accuracy": "85%",
       "fitness": "Good",
-      "description": "Achraf Hakimi is a Moroccan professional footballer who plays as a right-back for Paris Saint-Germain and the Morocco national team. He is known for his speed, technical ability, and attacking skills, as well as his versatility to play in different positions. Hakimi started his career at Real Madrid before moving to Borussia Dortmund and then Inter Milan, where he won the Serie A title in his first season. He joined Paris Saint-Germain in 2021 and has already become an important player for the team."
+      "description": "Achraf Hakimi is a Moroccan professional footballer who plays as a right-back for Paris Saint-Germain and the Morocco national team. He is known for his speed, technical ability, and attacking skills, as well as his versatility to play in different positions. Hakimi started his career at Real Madrid before moving to Borussia Dortmund and then Inter Milan, where he won the Serie A title in his first season. He joined Paris Saint-Germain in 2021 and has already become an important player for the team.", "images" : " "
     },
     {
       "name": "Trent Alexander-Arnold",
@@ -751,10 +822,10 @@
       "date_of_birth": "October 7, 1998",
       "previous_address": "Liverpool, England",
       "current_address": "Liverpool, England",
-      "market_price": "$110 million",
+      "market_price": 110 ,
       "accuracy": "90%",
       "fitness": "Excellent",
-      "description": "Trent Alexander-Arnold is an English professional footballer who plays as a right-back for Liverpool and the England national team. He is known for his crossing ability, set-piece skills, and vision on the ball, as well as his defensive capabilities. Alexander-Arnold came through the youth system at Liverpool and has established himself as one of the best right-backs in the world. He has won several major trophies with Liverpool, including the Premier League, Champions League, and Club World Cup."
+      "description": "Trent Alexander-Arnold is an English professional footballer who plays as a right-back for Liverpool and the England national team. He is known for his crossing ability, set-piece skills, and vision on the ball, as well as his defensive capabilities. Alexander-Arnold came through the youth system at Liverpool and has established himself as one of the best right-backs in the world. He has won several major trophies with Liverpool, including the Premier League, Champions League, and Club World Cup.", "images" : " "
     },
     {
       "name": "Reece James",
@@ -769,10 +840,10 @@
       "date_of_birth": "December 8, 1999",
       "previous_address": "London, England",
       "current_address": "London, England",
-      "market_price": "$45 million",
+      "market_price": 45 ,
       "accuracy": "85%",
       "fitness": "Excellent",
-      "description": "Reece James is a talented young right-back who plays for Chelsea and the England national team. He is known for his attacking prowess, as well as his defensive ability, and has already established himself as one of the best young players in his position. James is a product of Chelsea's youth academy and has been with the club since he was seven years old. He made his first-team debut in 2019 and has since become a regular starter for the Blues. James has also represented England at various youth levels and made his senior debut in 2019."
+      "description": "Reece James is a talented young right-back who plays for Chelsea and the England national team. He is known for his attacking prowess, as well as his defensive ability, and has already established himself as one of the best young players in his position. James is a product of Chelsea's youth academy and has been with the club since he was seven years old. He made his first-team debut in 2019 and has since become a regular starter for the Blues. James has also represented England at various youth levels and made his senior debut in 2019.", "images" : " "
     },
     {
       "name": "Kyle Walker",
@@ -787,10 +858,10 @@
       "date_of_birth": "May 28, 1990",
       "previous_address": "Manchester, England",
       "current_address": "Manchester, England",
-      "market_price": "$25 million",
+      "market_price": 25 ,
       "accuracy": "86%",
       "fitness": "Excellent",
-      "description": "Kyle Walker is an experienced right-back who plays for Manchester City and the England national team. He is known for his pace, physicality, and defensive ability, as well as his ability to get forward and provide attacking support. Walker began his career at Sheffield United before moving to Tottenham Hotspur in 2009. He later joined Manchester City in 2017 and has since won numerous domestic and international trophies with the club. Walker has also been a regular starter for the England national team since 2011 and has represented his country at multiple major tournaments."
+      "description": "Kyle Walker is an experienced right-back who plays for Manchester City and the England national team. He is known for his pace, physicality, and defensive ability, as well as his ability to get forward and provide attacking support. Walker began his career at Sheffield United before moving to Tottenham Hotspur in 2009. He later joined Manchester City in 2017 and has since won numerous domestic and international trophies with the club. Walker has also been a regular starter for the England national team since 2011 and has represented his country at multiple major tournaments.", "images" : " "
     },
     {
       "name": "Cristian Romero",
@@ -805,10 +876,10 @@
       "date_of_birth": "April 27, 1998",
       "previous_address": "Atalanta, Italy",
       "current_address": "London, England",
-      "market_price": "$60 million",
+      "market_price": 60 ,
       "accuracy": "92%",
       "fitness": "Excellent",
-      "description": "Cristian Romero is an Argentine professional footballer who plays as a center-back for Tottenham Hotspur and the Argentina national team. He is known for his defensive skills, athleticism, and ability to read the game, as well as his physicality and aerial prowess. Romero started his career at Belgrano before moving to Genoa and later Atalanta, where he caught the attention of top European clubs. He joined Tottenham Hotspur in 2021 and has quickly become a key player for the team. He made his debut for the Argentina national team in 2021 and has since established himself as one of the best young defenders in the game."
+      "description": "Cristian Romero is an Argentine professional footballer who plays as a center-back for Tottenham Hotspur and the Argentina national team. He is known for his defensive skills, athleticism, and ability to read the game, as well as his physicality and aerial prowess. Romero started his career at Belgrano before moving to Genoa and later Atalanta, where he caught the attention of top European clubs. He joined Tottenham Hotspur in 2021 and has quickly become a key player for the team. He made his debut for the Argentina national team in 2021 and has since established himself as one of the best young defenders in the game.", "images" : " "
     },
     {
       "name": "Eder Militao",
@@ -823,10 +894,10 @@
       "date_of_birth": "January 18, 1998",
       "previous_address": "Porto, Portugal",
       "current_address": "Madrid, Spain",
-      "market_price": "$60 million",
+      "market_price": 60 ,
       "accuracy": "87%",
       "fitness": "Excellent",
-      "description": "Eder Militao is a Brazilian professional footballer who plays as a center-back for Real Madrid and the Brazil national team. He is known for his physicality, aerial ability, and technical skills, as well as his versatility to play as a right-back or defensive midfielder. Militao started his career at Sao Paulo before moving to Porto in 2018, and then to Real Madrid in 2019. He has since established himself as a key player for both club and country, and is considered one of the best young defenders in the world."
+      "description": "Eder Militao is a Brazilian professional footballer who plays as a center-back for Real Madrid and the Brazil national team. He is known for his physicality, aerial ability, and technical skills, as well as his versatility to play as a right-back or defensive midfielder. Militao started his career at Sao Paulo before moving to Porto in 2018, and then to Real Madrid in 2019. He has since established himself as a key player for both club and country, and is considered one of the best young defenders in the world.", "images" : " "
     },
     {
       "name": "Virgil van Dijk",
@@ -841,10 +912,10 @@
       "date_of_birth": "July 8, 1991",
       "previous_address": "Southampton, England",
       "current_address": "Liverpool, England",
-      "market_price": "$80 million",
+      "market_price": 80 ,
       "accuracy": "89%",
       "fitness": "Excellent",
-      "description": "Virgil van Dijk is a Dutch professional footballer who plays as a center-back for Liverpool and the Netherlands national team. He is known for his physicality, aerial ability, leadership skills, and technical ability, as well as his composure and ability to read the game. Van Dijk started his career at Groningen before moving to Celtic and then Southampton, and then to Liverpool in 2018. He has since established himself as one of the best defenders in the world, and played a key role in Liverpool's 2019 UEFA Champions League victory and their first Premier League title in 30 years in 2020."
+      "description": "Virgil van Dijk is a Dutch professional footballer who plays as a center-back for Liverpool and the Netherlands national team. He is known for his physicality, aerial ability, leadership skills, and technical ability, as well as his composure and ability to read the game. Van Dijk started his career at Groningen before moving to Celtic and then Southampton, and then to Liverpool in 2018. He has since established himself as one of the best defenders in the world, and played a key role in Liverpool's 2019 UEFA Champions League victory and their first Premier League title in 30 years in 2020.", "images" : " "
     },
     {
       "name": "David Alaba",
@@ -859,10 +930,10 @@
       "date_of_birth": "June 24, 1992",
       "previous_address": "Bayern Munich, Germany",
       "current_address": "Madrid, Spain",
-      "market_price": "$60 million",
+      "market_price": 60 ,
       "accuracy": "86%",
       "fitness": "Excellent",
-      "description": "David Alaba is an Austrian professional footballer who plays as a defender for Real Madrid and the Austria national team. He is known for his versatility, being able to play as a centre-back, left-back or defensive midfielder. Alaba started his career at Austria Vienna before moving to Bayern Munich, where he won numerous titles and established himself as one of the best defenders in the world. He joined Real Madrid in 2021 as a free agent, and has since been a key player for the team. Alaba is also an important player for the Austrian national team, having earned over 80 caps since his debut in 2009."
+      "description": "David Alaba is an Austrian professional footballer who plays as a defender for Real Madrid and the Austria national team. He is known for his versatility, being able to play as a centre-back, left-back or defensive midfielder. Alaba started his career at Austria Vienna before moving to Bayern Munich, where he won numerous titles and established himself as one of the best defenders in the world. He joined Real Madrid in 2021 as a free agent, and has since been a key player for the team. Alaba is also an important player for the Austrian national team, having earned over 80 caps since his debut in 2009.", "images" : " "
     },
     {
       "name": "Marquinhos",
@@ -877,10 +948,10 @@
       "date_of_birth": "May 14, 1994",
       "previous_address": "AS Roma, Italy",
       "current_address": "Paris, France",
-      "market_price": "$80 million",
+      "market_price": 80 ,
       "accuracy": "89%",
       "fitness": "Excellent",
-      "description": "Marquinhos is a Brazilian professional footballer who plays as a defender for Paris Saint-Germain and the Brazil national team. He is known for his defensive skills, ability to read the game, and physical strength. Marquinhos started his career at Corinthians before moving to Europe, where he played for Roma before joining Paris Saint-Germain in 2013. He has since won numerous titles with the club and established himself as one of the best defenders in the world. Marquinhos is also an important player for the Brazilian national team, having earned over 50 caps since his debut in 2013."
+      "description": "Marquinhos is a Brazilian professional footballer who plays as a defender for Paris Saint-Germain and the Brazil national team. He is known for his defensive skills, ability to read the game, and physical strength. Marquinhos started his career at Corinthians before moving to Europe, where he played for Roma before joining Paris Saint-Germain in 2013. He has since won numerous titles with the club and established himself as one of the best defenders in the world. Marquinhos is also an important player for the Brazilian national team, having earned over 50 caps since his debut in 2013.", "images" : " "
     },
     {
       "name": "Antonio Rudiger",
@@ -895,10 +966,10 @@
       "date_of_birth": "March 3, 1993",
       "previous_address": "AS Roma, Germany",
       "current_address": "London, England",
-      "market_price": "$55 million",
+      "market_price": 55 ,
       "accuracy": "86%",
       "fitness": "Excellent",
-      "description": "Antonio Rudiger is a German professional footballer who plays as a central defender for Chelsea and the Germany national team. He is known for his physicality, pace, and ability to read the game, as well as his leadership skills on and off the pitch. Rudiger started his career at VfB Stuttgart before moving to AS Roma and then Chelsea, where he has become an important player under manager Thomas Tuchel. He has represented Germany at various youth levels before making his senior debut in 2014, and has since established himself as a regular starter for the national team."
+      "description": "Antonio Rudiger is a German professional footballer who plays as a central defender for Chelsea and the Germany national team. He is known for his physicality, pace, and ability to read the game, as well as his leadership skills on and off the pitch. Rudiger started his career at VfB Stuttgart before moving to AS Roma and then Chelsea, where he has become an important player under manager Thomas Tuchel. He has represented Germany at various youth levels before making his senior debut in 2014, and has since established himself as a regular starter for the national team.", "images" : " "
     },
     {
       "name": "Ruben Dias",
@@ -913,10 +984,10 @@
       "date_of_birth": "May 14, 1997",
       "previous_address": "Benfica, Portugal",
       "current_address": "Manchester, England",
-      "market_price": "$90 million",
+      "market_price": 90 ,
       "accuracy": "89%",
       "fitness": "Excellent",
-      "description": "Ruben Dias is a Portuguese professional footballer who plays as a central defender for Manchester City and the Portugal national team. He is known for his defensive skills, physicality, and ability to read the game, as well as his leadership qualities both on and off the pitch. Dias started his career at Benfica before moving to Manchester City in 2020, where he has quickly become an important player under manager Pep Guardiola. He has represented Portugal at various youth levels before making his senior debut in 2018, and played a key role in their triumph at the UEFA Nations League in 2019."
+      "description": "Ruben Dias is a Portuguese professional footballer who plays as a central defender for Manchester City and the Portugal national team. He is known for his defensive skills, physicality, and ability to read the game, as well as his leadership qualities both on and off the pitch. Dias started his career at Benfica before moving to Manchester City in 2020, where he has quickly become an important player under manager Pep Guardiola. He has represented Portugal at various youth levels before making his senior debut in 2018, and played a key role in their triumph at the UEFA Nations League in 2019.", "images" : " "
     },
     {
         "name": "Leandro Paredes",
@@ -931,10 +1002,10 @@
         "date_of_birth": "June 29, 1994",
         "previous_address": "Boca Juniors, Roma, Zenit Saint Petersburg",
         "current_address": "Paris, France",
-        "market_price": "$45 million",
+        "market_price": 45 ,
         "accuracy": "86%",
         "fitness": "Excellent",
-        "description": "Leandro Paredes is an Argentine professional footballer who plays as a midfielder for Paris Saint-Germain and the Argentina national team. He is known for his passing ability, vision, and control of the game, as well as his defensive contributions in midfield. Paredes began his career at Boca Juniors before moving to Europe to play for Roma and Zenit Saint Petersburg. He joined Paris Saint-Germain in 2019 and has become an important player for the club, winning several domestic titles and reaching the final of the UEFA Champions League."
+        "description": "Leandro Paredes is an Argentine professional footballer who plays as a midfielder for Paris Saint-Germain and the Argentina national team. He is known for his passing ability, vision, and control of the game, as well as his defensive contributions in midfield. Paredes began his career at Boca Juniors before moving to Europe to play for Roma and Zenit Saint Petersburg. He joined Paris Saint-Germain in 2019 and has become an important player for the club, winning several domestic titles and reaching the final of the UEFA Champions League.", "images" : " "
       },
       {
         "name": "Rodrigo De Paul",
@@ -949,10 +1020,10 @@
         "date_of_birth": "May 24, 1994",
         "previous_address": "Racing Club, Valencia, Udinese",
         "current_address": "Madrid, Spain",
-        "market_price": "$40 million",
+        "market_price": 40 ,
         "accuracy": "84%",
         "fitness": "Excellent",
-        "description": "Rodrigo De Paul is an Argentine professional footballer who plays as a midfielder for Atletico Madrid and the Argentina national team. He is known for his technical ability, vision, and passing skills, as well as his versatility in playing as a central or wide midfielder. De Paul started his career at Racing Club before moving to Europe to play for Valencia and Udinese. He joined Atletico Madrid in 2021 and has already made an impact for the club, helping them win the La Liga title in his first season. De Paul has also been a regular member of the Argentina national team, winning the Copa America in 2021."
+        "description": "Rodrigo De Paul is an Argentine professional footballer who plays as a midfielder for Atletico Madrid and the Argentina national team. He is known for his technical ability, vision, and passing skills, as well as his versatility in playing as a central or wide midfielder. De Paul started his career at Racing Club before moving to Europe to play for Valencia and Udinese. He joined Atletico Madrid in 2021 and has already made an impact for the club, helping them win the La Liga title in his first season. De Paul has also been a regular member of the Argentina national team, winning the Copa America in 2021.", "images" : " "
       },
       {
         "name": "Ansu Fati",
@@ -967,10 +1038,10 @@
         "date_of_birth": "October 31, 2002",
         "previous_address": "Seville, Spain",
         "current_address": "Barcelona, Spain",
-        "market_price": "$90 million",
+        "market_price": 90 ,
         "accuracy": "89%",
         "fitness": "Excellent",
-        "description": "Ansu Fati is a young Spanish professional footballer who plays as a forward for Barcelona and the Spain national team. He is known for his pace, dribbling, and finishing ability, as well as his versatility to play on either wing or as a center forward. Fati made his debut for Barcelona at the age of 16, and has since become one of the most promising young talents in world football. He is also the youngest goalscorer in the history of the Spanish national team."
+        "description": "Ansu Fati is a young Spanish professional footballer who plays as a forward for Barcelona and the Spain national team. He is known for his pace, dribbling, and finishing ability, as well as his versatility to play on either wing or as a center forward. Fati made his debut for Barcelona at the age of 16, and has since become one of the most promising young talents in world football. He is also the youngest goalscorer in the history of the Spanish national team.", "images" : " "
       },
       {
         "name": "Giovani Lo Celso",
@@ -985,10 +1056,10 @@
         "date_of_birth": "April 9, 1996",
         "previous_address": "Paris, France",
         "current_address": "London, England",
-        "market_price": "$50 million",
+        "market_price": 50 ,
         "accuracy": "87%",
         "fitness": "Good",
-        "description": "Giovani Lo Celso is an Argentine professional footballer who plays as a midfielder for Tottenham Hotspur and the Argentina national team. He is known for his technical ability, passing range, and vision on the ball, as well as his versatility to play as an attacking midfielder or central midfielder. Lo Celso started his career at Rosario Central before moving to Europe to play for Paris Saint-Germain and later Real Betis, where he impressed with his performances. He signed for Tottenham Hotspur in 2019 and has since become an important player for the team."
+        "description": "Giovani Lo Celso is an Argentine professional footballer who plays as a midfielder for Tottenham Hotspur and the Argentina national team. He is known for his technical ability, passing range, and vision on the ball, as well as his versatility to play as an attacking midfielder or central midfielder. Lo Celso started his career at Rosario Central before moving to Europe to play for Paris Saint-Germain and later Real Betis, where he impressed with his performances. He signed for Tottenham Hotspur in 2019 and has since become an important player for the team.", "images" : " "
       },
       {
         "name": "Paulo Dybala",
@@ -1003,10 +1074,10 @@
         "date_of_birth": "November 15, 1993",
         "previous_address": "Cordoba, Argentina",
         "current_address": "Turin, Italy",
-        "market_price": "$60 million",
+        "market_price": 60 ,
         "accuracy": "90%",
         "fitness": "Good",
-        "description": "Paulo Exequiel Dybala is an Argentine professional footballer who plays as a forward for Serie A club Roma and the Argentina national team. He is known for his exceptional dribbling ability, quick feet, and an eye for goal."
+        "description": "Paulo Exequiel Dybala is an Argentine professional footballer who plays as a forward for Serie A club Roma and the Argentina national team. He is known for his exceptional dribbling ability, quick feet, and an eye for goal.", "images" : " "
     },
     {
         "name": "Sergio Busquets",
@@ -1021,10 +1092,10 @@
         "date_of_birth": "July 16, 1988",
         "previous_address": "N/A",
         "current_address": "Barcelona, Spain",
-        "market_price": "$25 million",
+        "market_price": 25 ,
         "accuracy": "91%",
         "fitness": "Good",
-        "description": "Sergio Busquets is a Spanish professional footballer who plays as a defensive midfielder for Barcelona and the Spain national team. He is known for his exceptional passing ability, tactical awareness, and ability to control the tempo of the game. Busquets started his career in the Barcelona youth academy and made his first team debut in 2008. He has since become a key player for both club and country, winning numerous titles including the World Cup, European Championship, and Champions League. Off the field, he is known for his quiet and humble demeanor."
+        "description": "Sergio Busquets is a Spanish professional footballer who plays as a defensive midfielder for Barcelona and the Spain national team. He is known for his exceptional passing ability, tactical awareness, and ability to control the tempo of the game. Busquets started his career in the Barcelona youth academy and made his first team debut in 2008. He has since become a key player for both club and country, winning numerous titles including the World Cup, European Championship, and Champions League. Off the field, he is known for his quiet and humble demeanor.", "images" : " "
       }
   ]
   

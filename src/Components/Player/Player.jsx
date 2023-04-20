@@ -1,32 +1,30 @@
 import React from "react";
 import { Link, useNavigation } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
-const Player = ({ player , handleAddToCart }) => {
-      console.log(player);
+const Player = ({ player }) => {
+      // console.log(player);
     const navigation = useNavigation();
 if (navigation.state === 'loading') {
     return <LoadingSpinner></LoadingSpinner>
   }
-  const {strPlayer,strCutout, idPlayer, idTeam}  = player
+  const {name,images, marketPrice, id}  = player
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src={strCutout} 
+            src={images} 
             alt="Shoes"
-            className="rounded-xl"
+            className="rounded-xl h-[300px] w-[300px]"
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">Nicname: {strPlayer}</h2>
-            <p>Price : $<span>{idTeam}</span> </p>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title">Name: {name}</h2>
+          <p>Price: <span>$</span> {marketPrice} million</p>
           <div className="card-actions">
-            <Link to={`/service/${idPlayer}`}>
+            <Link to={`/player/${id}`}>
               <button className="btn btn-primary">See details</button>
             </Link>
-            <button onClick={() => handleAddToCart(player)} className="btn btn-primary">Add to Cart</button>
           </div>
         </div>
       </div>
