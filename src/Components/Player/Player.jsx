@@ -1,13 +1,15 @@
 import React from "react";
 import { Link, useNavigation } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
-const Player = ({ player }) => {
+const Player = ({ player, handleAddToCart }) => {
       // console.log(player);
     const navigation = useNavigation();
 if (navigation.state === 'loading') {
     return <LoadingSpinner></LoadingSpinner>
   }
-  const {name,images, marketPrice, id}  = player
+  
+  const {name,images, marketPrice, id, position}  = player
+  // console.log(player);
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -21,10 +23,12 @@ if (navigation.state === 'loading') {
         <div className="card-body items-center text-center">
           <h2 className="card-title">Name: {name}</h2>
           <p>Price: <span>$</span> {marketPrice} million</p>
+          <p>Position: {position} </p>
           <div className="card-actions">
             <Link to={`/player/${id}`}>
-              <button className="btn btn-primary">See details</button>
+              <button className="btn btn-primary mr-8">See details</button>
             </Link>
+            <button onClick={ () => handleAddToCart(player)} className="btn btn-primary">Add to cart</button>
           </div>
         </div>
       </div>

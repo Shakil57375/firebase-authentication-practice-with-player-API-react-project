@@ -27,6 +27,9 @@ const Header = () => {
                 <Link to="/players">Players</Link>
             </li>
             <li>
+                <Link to="/myTeam">My team</Link>
+            </li>
+            <li>
                 <Link to="/signin">Sign in</Link>
             </li>
             <li>

@@ -14,6 +14,8 @@ import AuthProvider from './Provider/AuthProvider';
 import PrivateRouter from './Private/PrivateRouter';
 import Homes from './Components/Orders/Homes'
 import PlayerDetails from './Components/PlayerDetails/PlayerDetails';
+import Team from './Components/MyTeam/Team';
+import { selectedPlayers } from './selectedPlayerLoader/selectedPlayerLoader';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,11 @@ const router = createBrowserRouter([
       {
         path : '/',
         element : <Home></Home>
+      },
+      {
+        path : 'myTeam',
+        element : <PrivateRouter><Team></Team></PrivateRouter>,
+        loader : selectedPlayers
       },
       {
         path : '/signin',
