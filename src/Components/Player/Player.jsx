@@ -12,7 +12,7 @@ if (navigation.state === 'loading') {
   // console.log(player);
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 shadow-xl mt-28 lg:mt-44 ">
         <figure className="px-10 pt-10">
           <img
             src={images} 

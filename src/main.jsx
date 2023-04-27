@@ -16,6 +16,7 @@ import Homes from './Components/Orders/Homes'
 import PlayerDetails from './Components/PlayerDetails/PlayerDetails';
 import Team from './Components/MyTeam/Team';
 import { selectedPlayers } from './selectedPlayerLoader/selectedPlayerLoader';
+import TermsAndConditions from './Components/TermsAndCondtions/TermsAndConditions';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,12 +40,16 @@ const router = createBrowserRouter([
         element : <SignUp></SignUp>
       },
       {
+        path : '/termsAndConditions',
+        element : <TermsAndConditions></TermsAndConditions>
+      },
+      {
         path : '/players',
         element : <PrivateRouter><Homes></Homes></PrivateRouter>,
         loader : () => fetch('/data.json')
       },
       {
-        path : '/player/:Id',
+        path : '/player/:id',
         element : <PrivateRouter><PlayerDetails></PlayerDetails></PrivateRouter>,
         loader : () => fetch('/data.json')
       },

@@ -17,14 +17,14 @@ const Team = () => {
     }
     return (
         <div>
-            <div className='grid sm:px-5 lg:px-20 sm:grid-cols-1 mt-10 lg:grid-cols-3 gap-10'>
-            {
-                cart.map(players => <MyPlayers handleRemoveItem = {handleRemoveItem} handleResetTeam = {handleResetTeam} players ={players} key={players.id}></MyPlayers>)
-            }
+            <div className='grid sm:px-5 lg:px-20 sm:grid-cols-1 mt-28 lg:mt-44 lg:grid-cols-3 gap-10'>
+                {
+                    cart.map(players => <MyPlayers handleRemoveItem = {handleRemoveItem} handleResetTeam = {handleResetTeam} players ={players} key={players.id}></MyPlayers>)
+                }
             </div>
             <div  className='w-full text-center'> 
                 <Link to="/players">
-                    <button onClick={handleResetTeam} className="btn btn-primary ">Reset team</button>
+                    <button onClick={handleResetTeam} className="btn btn-primary mt-5 ">Reset Team</button>
                 </Link>
             </div>
         </div>

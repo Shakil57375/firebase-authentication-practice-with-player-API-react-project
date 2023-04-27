@@ -3,6 +3,7 @@ import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
+import toast, { Toaster } from 'react-hot-toast';
 
 const SignUp = () => {
   const { createUser, sendVerificationEmail, googleSignIn, githubSignIn } = useContext(AuthContext);
@@ -70,7 +71,7 @@ const SignUp = () => {
       sendVerificationEmail(user)
         .then((result) => {
           console.log(result);
-          alert("Please check your email");
+          toast("Please check your email");
         })
         .catch((error) => {
           console.log(error.message);
@@ -105,12 +106,12 @@ const SignUp = () => {
   }
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen lg:mt-24 mt-[4.2rem] bg-base-200">
         <div className="hero-content flex-col">
           <div className="text-center">
             <h1 className="text-5xl font-bold">Sign Up!</h1>
           </div>
-          <div className="card flex-shrink-0 w-[450px] shadow-2xl bg-base-100">
+          <div className="card flex-shrink-0 lg:w-[450px] sm:w-full shadow-2xl bg-base-100">
             <form onSubmit={handleSubmit} className="card-body w-full">
               <div className="form-control">
                 <label className="label">
@@ -197,6 +198,7 @@ const SignUp = () => {
           </div>
         </div>
       </div>
+      <Toaster></Toaster>
     </div>
   );
 };

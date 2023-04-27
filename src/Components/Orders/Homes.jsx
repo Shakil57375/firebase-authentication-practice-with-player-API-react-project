@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Player from '../Player/Player';
 import { addToDb, getShoppingCart } from '../utilities/fakedb';
-
+import toast, { Toaster } from 'react-hot-toast';
 const Home = () => {
     const [cart, setCart] = useState([]);
     const players = useLoaderData()
@@ -23,11 +23,12 @@ const Home = () => {
     },[players])
     const handleAddToCart = (player) =>{
         if(selectedPlayers.includes(player)){
-            alert("You can add a player on your cart one time")
+            toast("Player already added ❌")
             return
         }
         else{
             setSelectedPlayers([...selectedPlayers, player])
+            toast("Player added ✔️")
         }
         let newCart = [];
         const exist = cart.find(pd => parseInt(pd.id) === player.id)
@@ -61,16 +62,17 @@ const Home = () => {
     }
 
     return (
-        <div className='w-full flex justify-between mx-20'>
-            <div className='grid w-9/12 lg:grid-cols-2 sm:grid-cols-1  gap-4'>
-            {
-                players && players.map(player =>  <Player player = {player} handleAddToCart = {handleAddToCart} key = {player.name} ></Player>)
-            }
+        <div className='w-full flex lg:flex-row flex-col sm:justify-normal lg:justify-between sm:px-4 lg:px-20'>
+            <div className='grid lg:w-9/12 w-full z-20 lg:grid-cols-2 mt-44 lg:mt-0 sm:grid-cols-1 gap-4'>
+                {
+                    players && players.map(player =>  <Player player = {player} handleAddToCart = {handleAddToCart} key = {player.name} ></Player>)
+                }
             </div>
-            <div className='grid w-3/12 grid-cols-1 bg-blue-600 text-white mt-5 fixed right-0 top-16 px-10 py-4 rounded shadow-xl h-80 gap-4'>
+            <div className='lg:grid lg:w-3/12 w-full  lg:grid-cols-1 bg-blue-600 text-white lg:mt-28  fixed right-0 top-20 z-40 px-10 py-4 lg:rounded rounded-none shadow-xl  gap-4'>
                 <h1 className='text-3xl font-semibold'>Your Buys</h1>
                 <p>Selected Players: {quantity} </p>
                 <p>Total Price : {totalPrice} </p>
+                <Toaster></Toaster>
             </div>
         </div>
     );

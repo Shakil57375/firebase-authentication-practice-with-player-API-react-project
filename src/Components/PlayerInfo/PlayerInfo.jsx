@@ -34,7 +34,7 @@ const PlayerInfo = ({ playerInformation }) => {
   } = playerInformation;
   return (
     <div>
-      <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto mt-5">
+      <div className="flex-col lg:mt-44 mt-20  flex max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto relative">
         {/* Image Container */}
         <div className=" lg:w-1/2 h-full">
           <img
@@ -73,10 +73,11 @@ const PlayerInfo = ({ playerInformation }) => {
                 Read Less
               </span>
             </>
+            
           )}
           <button
             onClick={handleGoBack}
-            className="btn absolute bottom-2 inline-block"
+            className="btn absolute lg:bottom-10 bottom-0 inline-block"
           >
             Go Back
           </button>

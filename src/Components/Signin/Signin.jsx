@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import toast, { Toaster } from 'react-hot-toast';
 const Signin = () => {
   const { login, forgetPass, googleSignIn, githubSignIn } = useContext(AuthContext);
   const emailRef = useRef();
@@ -40,12 +41,12 @@ const Signin = () => {
   const handleResetPass = () => {
     const email = emailRef.current.value;
     if (!email) {
-      alert("Please provide your email address to reset password");
+      toast("Please provide your email address to reset password");
       return;
     }
     forgetPass(email)
       .then(() => {
-        alert("Please check your email");
+        toast("Please check your email");
       })
       .catch((error) => {
         setError(error.message);
@@ -80,12 +81,12 @@ const Signin = () => {
   }
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen lg:mt-24 mt-[4.2rem] bg-base-200">
         <div className="hero-content flex-col">
           <div className="text-center">
             <h1 className="text-5xl font-bold">Sign in!</h1>
           </div>
-          <div className="card flex-shrink-0 w-[450px] shadow-2xl bg-base-100">
+          <div className="card flex-shrink-0 lg:w-[450px] w-full  shadow-2xl bg-base-100">
             <form onSubmit={handleSubmit} className="card-body w-full">
               <div className="form-control">
                 <label className="label">
@@ -174,6 +175,7 @@ const Signin = () => {
           </div>
         </div>
       </div>
+      <Toaster></Toaster>
     </div>
   );
 };

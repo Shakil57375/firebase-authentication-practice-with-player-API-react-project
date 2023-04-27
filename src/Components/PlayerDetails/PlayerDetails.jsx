@@ -3,20 +3,19 @@ import {useLoaderData, useParams } from 'react-router-dom';
 import PlayerInfo from '../PlayerInfo/PlayerInfo';
 
 const PlayerDetails = () => {
-    const {Id} = useParams()
+    const {id} = useParams()
     const playerDetail = useLoaderData()
     // console.log(playerDetail);
-    console.log(Id);
+    // console.log(id);
     const [playerInformation, setPlayerInformation] = useState({})
     useEffect(()=>{
-        const playerData = playerDetail && playerDetail.find(player => player.id === parseInt(Id));
+        const playerData = playerDetail && playerDetail.find(player => player.id === id);
         setPlayerInformation(playerData)
-    },[Id])
-    
+    },[id])
     return (
         <div>
             {
-                <PlayerInfo playerInformation = {playerInformation} key={playerInformation.id} ></PlayerInfo>
+                <PlayerInfo playerInformation = {playerInformation} ></PlayerInfo>
             }
         </div>
     );
