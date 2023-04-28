@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -29,19 +30,22 @@ const Footer = () => {
             Terms and Conditions
           </a>
         </nav>
-        <div className="flex justify-center items-center mt-4">
-          <a href="#" className="text-gray-500 hover:text-white mr-4">
-            <i className="fab fa-facebook fa-lg"></i>
-          </a>
-          <a href="#" className="text-gray-500 hover:text-white mr-4">
-            <i className="fab fa-twitter fa-lg"></i>
-          </a>
-          <a href="#" className="text-gray-500 hover:text-white mr-4">
-            <i className="fab fa-instagram fa-lg"></i>
-          </a>
+        <div>
+          <p className="text-center font-semibold text-gray-500 hover:text-white ">Contact with me by using</p>
+          <div className="flex justify-center items-center mt-4">
+            <a href="https://web.facebook.com/profile.php?id=100056182026221" className=" mr-4">
+            <FaFacebook className="text-gray-500 hover:text-white " />
+            </a>
+            <a href="https://twitter.com/ShakilHoss25740" className="mr-4">
+              <FaTwitter className="text-gray-500 hover:text-white " />
+            </a>
+            <a href="https://www.instagram.com/shakil57375/" className="mr-4">
+              <FaInstagram className="text-gray-500 hover:text-white " />
+            </a>
+          </div>
         </div>
         <div className="text-gray-500 text-center text-xs mt-4">
-          Copyright © 2023 Build Your Dream 11 Team and Conquer the Game!
+          Copyright © 2023 All rights reserved by Shakil Hossain.
         </div>
       </footer>
   );

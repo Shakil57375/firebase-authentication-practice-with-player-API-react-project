@@ -42,7 +42,7 @@ const Header = () => {
                 {
               user && 
               <div className="flex gap-4">
-                <button onClick={handleLogOut}>Sign Out</button>
+                <button className="text-white" onClick={handleLogOut}>Sign Out</button>
                 <span className='text-white mr-3'> <img src={user.photoURL} width={50} height={50} className="rounded-full" alt="" /></span>
               </div>
             }
