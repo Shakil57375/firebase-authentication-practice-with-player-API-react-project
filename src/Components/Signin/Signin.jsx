@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
 const Signin = () => {
   const { login, forgetPass, googleSignIn, githubSignIn } = useContext(AuthContext);
   const emailRef = useRef();
@@ -26,7 +26,7 @@ const Signin = () => {
         const loggedUser = result.user;
         console.log(loggedUser);
         if (!loggedUser.emailVerified) {
-          alert("Please verify your email to log in");
+          toast("Please verify your email to log in");
           return;
         }
         setSuccess("User logged in successfully");
@@ -175,7 +175,7 @@ const Signin = () => {
           </div>
         </div>
       </div>
-      <Toaster></Toaster>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };

@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Player from "../Player/Player";
 import { addToDb, getShoppingCart } from "../utilities/fakedb";
-import toast, { Toaster } from "react-hot-toast";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Home = () => {
   const [cart, setCart] = useState([]);
   const [filter, setFilter] = useState(null);
   const players = useLoaderData();
-  const filteredPlayer = filter ? players.filter(player => player.position === filter ) : players
+  const filteredPlayer = filter
+    ? players.filter((player) => player.position === filter)
+    : players;
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   useEffect(() => {
     const storedPlayer = getShoppingCart();
@@ -62,21 +65,23 @@ const Home = () => {
 
   return (
     <div>
-      <div className="lg:mt-32 gap-4 flex justify-center flex-col items-center mb-10 text-center px-2">
-        <p className="mt-48 lg:mt-0 text-xl font-semibold">Find best</p>
-        <div className="gap-2 flex flex-row mx-auto">
-          <button onClick={() => setFilter('goal_Keeper')} className="btn btn-primary">Goal-Keepers</button>
-          <button onClick={() => setFilter('Forward')} className="btn lg:mb-0 mb-4 btn-primary">Forwards</button>
-          <button onClick={() => setFilter('Mid_fielder')} className="btn btn-primary">Mid-fielders</button>
-        </div>
-        <div className="gap-2 flex flex-row mx-auto">
-          <button onClick={() => setFilter('winger')} className="btn lg:mb-0 mb-4 btn-primary">Wingers</button>
-          <button onClick={() => setFilter('Left_back')} className="btn lg:mb-0 mb-4 btn-primary">Left-backs</button>
-          <button onClick={() => setFilter('Right_back')} className="btn btn-primary">Right-backs</button>
+      <div className="gap-4 flex justify-start items-center mb-10 text-center px-2">
+        <div className="mt-56 fixed -top-6 lg:-top-24 z-50 left-0 lg:ml-20 ml-0 dropdown dropdown-right">
+          <label tabIndex={0} className="btn m-1">
+            Filter By
+          </label>
+          <ul tabIndex={0} className="dropdown-content menu p-2 shadow gap-1 rounded-box w-52">
+              <button onClick={() => setFilter('goal_Keeper')} className="btn btn-primary">Goal-Keepers</button>
+              <button onClick={() => setFilter('Forward')} className="btn btn-primary">Forwards</button>
+              <button onClick={() => setFilter('Mid_fielder')} className="btn btn-primary">Mid-fielders</button>
+              <button onClick={() => setFilter('winger')} className="btn btn-primary">Wingers</button>
+              <button onClick={() => setFilter('Left_back')} className="btn btn-primary">Left-backs</button>
+              <button onClick={() => setFilter('Right_back')} className="btn btn-primary">Right-backs</button>
+          </ul>
         </div>
       </div>
       <div className="w-full flex lg:flex-row flex-col sm:justify-normal lg:justify-between sm:px-4 lg:px-20">
-        <div className="grid lg:w-9/12 w-full z-20 lg:grid-cols-2 mt-0 sm:grid-cols-1 gap-4">
+        <div className="grid lg:w-9/12 mt-32 w-full z-20 lg:grid-cols-2  sm:grid-cols-1 gap-4">
           {filteredPlayer &&
             filteredPlayer.map((player) => (
               <Player
@@ -90,7 +95,7 @@ const Home = () => {
           <h1 className="text-3xl font-semibold">Your Buys</h1>
           <p>Selected Players: {quantity} </p>
           <p>Total Price : {totalPrice} </p>
-          <Toaster></Toaster>
+          <ToastContainer />
         </div>
       </div>
     </div>

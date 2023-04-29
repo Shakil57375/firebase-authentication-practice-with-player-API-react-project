@@ -25,7 +25,7 @@ const Header = () => {
                     <div className='md:hidden' onClick={()=> setOpen(!open)}>
                             <span >
                                 {
-                                    open === true ? <XMarkIcon className='h-6 w-6 text-black-400'/> : <Bars3Icon className='h-6 w-6 text-black-400'/>
+                                    open === true ? <XMarkIcon className='h-6  w-6 text-white'/> : <Bars3Icon className='h-6  w-6 text-white'/>
                                     
                                 }
                             </span>
